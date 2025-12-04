@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine All Website</title>
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+
+            /* --- UPDATED BACKGROUND STYLES --- */
+            background-image: url('https://i.ibb.co/zTWwSPYD/MINE-ALL-WEBSITE-3.png'); 
+            background-color: #020b14; /* Fallback dark color */
+            background-repeat: no-repeat;
+            background-size: cover; /* Ensures the image covers the whole viewport */
+            background-attachment: fixed; /* Keeps background static when scrolling */
+            /* ---------------------------------- */
+        }
+
+        /* The Main Neon Title */
+        h1 {
+            color: #ccff00; /* Neon yellow-green */
+            font-size: 3rem;
+            margin-bottom: 50px; /* Space between H1 and the grid */
+            text-shadow: 0 0 10px #ccff00, 0 0 20px #ccff00; /* Glow effect */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        
+        /* The Grid Container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* 5 columns per row */
+            gap: 20px 20px; 
+            padding: 20px;
+        }
+
+        /* Wrapper for each box and its label */
+        .item-wrapper {
+            text-align: center;
+        }
+
+        /* The Blue Box (The Link) */
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            height: 120px;
+            background-color: #0044cc; /* The blue color */
+            text-decoration: none;
+            transition: transform 0.2s, background-color 0.2s;
+            cursor: pointer;
+            border-radius: 4px; 
+            display: inline-flex;
+        }
+
+        /* Hover Effect for interaction */
+        .box:hover {
+            transform: scale(1.05);
+            background-color: #0055ff;
+            box-shadow: 0 0 15px #0055ff;
+        }
+
+        /* Styling for the Image inside the box */
+        .box-logo {
+            width: 80%;
+            height: auto;
+            display: block;
+        }
+
+        /* The individual Label below each box */
+        .label {
+            color: #ccff00; /* Neon yellow-green */
+            font-size: 0.9rem; 
+            margin-top: 5px;
+            margin-bottom: 0;
+            text-shadow: 0 0 3px #ccff00; /* Subtle glow */
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.2;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 800px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="title">MINE ALL WEBSITE</h1>
+
+    <div class="grid-container">
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+        
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+        <div class="item-wrapper">
+            <a href="https://xiaonfan.github.io/IMAGE-TOOLS/" class="box">
+                <img src="https://xiaonfan.github.io/IMAGE-TOOLS/logo.png" alt="Logo" class="box-logo">
+            </a>
+            <p class="label">IMAGE TOOLS</p>
+        </div>
+    </div>
+
+</body>
+</html>
